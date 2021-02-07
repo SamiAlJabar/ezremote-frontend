@@ -1,0 +1,14 @@
+$enable-shadows: true;
+$enable-gradients: true;
+
+$theme-colors: (
+  "primary": #2e0053,
+  "accent": #fff,
+  "table-header-color": #f4f6ff,
+  "danger": #ff4136,
+  "secondary": #252525
+);
+
+// Include Bootstrap and BootstrapVue SCSS files
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~bootstrap-vue/src/index.scss";
